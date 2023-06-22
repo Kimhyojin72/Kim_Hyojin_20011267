@@ -9,7 +9,7 @@ az = atan2d(ENU(:,1),ENU(:,2));
 
 for i = 1 : 1 : m
     if (az(i)<0)
-        az(i) = az(i) + 2 * pi;
+        az(i) = az(i) + 360;
     end
 end
 
